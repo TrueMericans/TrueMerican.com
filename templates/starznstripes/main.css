@@ -1,0 +1,170 @@
+/* CSS Document Starz-n-Stripes
+Creative Commons 3 Licence
+Designed by http://emasai.com*/
+
+
+body {
+   color: #003;
+   font-family: Verdana, Arial, Helvetica, sans-serif;
+   font-size: .9em;
+   background: url(stripe_white.png) repeat-x;
+}
+
+a {
+   color: #FF4E4E;
+   text-decoration: none;
+   font-weight: bold;
+}
+
+a:hover {
+   color: #006;
+}
+
+h1 {
+   color: #006;
+   font-size: 2em;
+   text-align: center;
+}
+
+h2 {
+   color: #006;
+   font-size: 1.5em;
+}
+
+h3 {
+   color: #006;
+   font-size: 1em;
+   text-align: left;
+}
+
+blockquote {
+   margin: auto;
+}
+
+blockquote p{
+   background: url(images/star.png) no-repeat;
+   padding: 2px 2px 2px 45px;
+
+}
+
+/*BEGIN NAVIGATION */
+#menu {
+   margin: 0 26px 0 12px;
+}
+#menu_center{
+    width: 702px;
+   text-align: center;
+   margin: 0 auto;
+   position: relative;
+}
+
+#menu ul, #menu li {
+   list-style-type: none;
+   position: relative;
+   margin: 0 ;
+   padding: 0;
+}
+
+#menu li {
+   float: left;
+}
+
+#menu li a {
+   display: block;
+   width: 105px;
+   height: 20px;
+   color: #006;
+   margin-top: 5px;
+   padding: 0 5px;
+}
+
+#menu li a:hover {
+   color: #FF4E4E;
+   background: url(images/ministar.gif) no-repeat;
+}
+/* END OF NAVIGATION */
+
+/*EXTRA NAVIGATION */
+.wrapper {
+   width: 180px;
+}
+
+.buttons a {
+   color: #006;
+   background-color: #FFF;
+   padding: 2px 2px 2px 5px;
+   display: block;
+   border-right: 20px solid #737EFF;
+   font: 13px Arial, sans-serif;
+   font-weight: bold;
+   text-decoration: none;
+   text-align: left;
+   margin-top: 1px;
+}
+
+.buttons a:hover {
+   border-right: 20px solid #FF4E4E;
+   text-decoration: none;
+   color: #ff4E4E;
+}
+
+/* END OF EXTRA NAVIGATION */
+
+/*CONTENT*/
+
+#container {
+   width: 741px;
+   margin: 0 auto;
+}
+
+#header {
+   height: 150px;
+   background: url(images/header.gif) no-repeat 0 0;
+}
+
+#header h1{
+   padding-top: 80px;
+}
+#content {
+   width: 721px;
+   background: #FFF url(images/body.jpg) no-repeat 0 0;
+   margin: 0;
+   padding: 5px 0 0 20px;
+   font-size: .9em;
+}
+
+#contentright {
+   position: relative;
+   float: right;
+   width: 180px ;
+   margin: 0px 26px 15px 15px;
+}
+
+#contentright h3{
+   margin: 0;
+   padding: 10px 0 0 0;
+}
+
+#contentright p{
+   width: 180px;
+   margin: 0;
+   padding:10px 0;
+    font-size: 92%;
+}
+
+#footer {
+   width: 721px;
+   clear: right;
+   background: url(images/footer.jpg) no-repeat 12px 0;
+}
+
+#footer p{
+   text-align:center;
+   font-size:.75em;
+   padding: 10px 0;
+}
+
+#section_description{
+   font-size:24px;
+   cursor:pointer;
+}

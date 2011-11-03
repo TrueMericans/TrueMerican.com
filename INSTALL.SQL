@@ -1,0 +1,8 @@
+DROP TABLE IF EXISTS `profiles`
+
+CREATE TABLE  `profiles` (
+`id` INT( 11 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`user_id` INT( 11 ) NOT NULL
+) ENGINE = INNODB
+
+;;
