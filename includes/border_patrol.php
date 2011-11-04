@@ -15,7 +15,7 @@ try
 	//$location = $geoip->lookupLocation('58.14.0.0'); // Dirty Chinaman IP
 	//$location = $geoip->lookupLocation('58'); // Some Terrorist trying to Hack In!
 
-	$merican = ($location != null && isset($location->countryCode) && $location->countryCode == 'US');
+	$merican = ($_SERVER['SERVER_ADDR'] == '127.0.0.1' || ($location != null && isset($location->countryCode) && $location->countryCode == 'US'));
 }
 catch (Exception $e)
 {
