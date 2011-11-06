@@ -25,6 +25,7 @@ class page
        Design by - ".$this->widgets->anchor(array('href'=>'http://emasai.com','target'=>'_blank','text'=>'eMasai.com'))."
        </p>
       ";
+	  
       $this->section_menus       =
       '
          <div id="menu">

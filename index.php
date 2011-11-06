@@ -13,6 +13,11 @@ else
 	$className = 'index';
 }
 
+if (!class_exists($className))
+{
+   $className = 'index';
+}
+
 //dynamically instantiate the page object
 $page = new $className();
 
